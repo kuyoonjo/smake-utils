@@ -1,6 +1,6 @@
 {
   "name": "@smake/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typescript Module Template",
   "license": "MIT",
   "repository": "",
@@ -22,9 +22,6 @@
   ],
   "main": "lib/index",
   "types": "lib/index",
-  "bin": {
-    "smake": "./lib/bin.js"
-  },
   "scripts": {
     "clean": "rimraf lib && rimraf coverage",
     "format": "prettier --write \"{src,__tests__}/**/*.ts\" --single-quote --trailing-comma es5",

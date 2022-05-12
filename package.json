@@ -1,6 +1,6 @@
 {
   "name": "@smake/utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Typescript Module Template",
   "license": "MIT",
   "repository": "",
@@ -30,13 +30,12 @@
   },
   "devDependencies": {
     "@types/node": "^15.0.2",
+    "prettier": "^2.6.2",
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.2.4"
   },
   "engines": {
     "node": ">=12.0.0"
-  },
-  "dependencies": {
   }
 }
